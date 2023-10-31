@@ -3,14 +3,15 @@ const email = [ "emanuelekushi@gmail.com", "alessandrograndigmail.com", "marioro
 
 
 for (let i = 0; i < email.length; i++) {
+    
+    const emailCorrente = email[i];
 
-    if (email == email)  {
+    if (email == emailCorrente)  {
+
         console.log (" valido")
     }
 
-    if (email == 0)  {
-        console.log ("non valido")
-    }
+   
     
 
 }
